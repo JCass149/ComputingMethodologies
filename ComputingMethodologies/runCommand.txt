@@ -1,0 +1,15 @@
+﻿To translate (compile) enter:
+g++ -O3 --std=c++11 summativeCode.c -o summativeCode
+
+for parallel, add following argument:
+OMP_NUM_THREADS 4
+
+
+To run enter: 
+summativeCode
+
+examples: 
+summativeCode 0.1   0 0 0  1 0 0  0.0001   0.0000001 0 0  -1 0 0  0.0001
+summativeCode 100.0 3.0 0 0   0 1.0   0 0.4 0   0 0   0 0   0 0.2 2.0 0 0 0 0 0 1.0
+
+summativeCode 10.0 100
